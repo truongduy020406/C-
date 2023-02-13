@@ -1,0 +1,8 @@
+D:\LaptrinhC#\Hinh\bin\Debug\Hinh.exe.config
+D:\LaptrinhC#\Hinh\bin\Debug\Hinh.exe
+D:\LaptrinhC#\Hinh\bin\Debug\Hinh.pdb
+D:\LaptrinhC#\Hinh\obj\Debug\Hinh.csproj.AssemblyReference.cache
+D:\LaptrinhC#\Hinh\obj\Debug\Hinh.csproj.SuggestedBindingRedirects.cache
+D:\LaptrinhC#\Hinh\obj\Debug\Hinh.csproj.CoreCompileInputs.cache
+D:\LaptrinhC#\Hinh\obj\Debug\Hinh.exe
+D:\LaptrinhC#\Hinh\obj\Debug\Hinh.pdb
