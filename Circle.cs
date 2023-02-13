@@ -19,7 +19,7 @@ namespace Hinh
         {
             this.r = r;
         }
-        public double caculArea()
+        public double tinhDienTich()
         {
             return (this.r * this.r) * Math.PI;
         }
@@ -33,8 +33,8 @@ namespace Hinh
         {
             base.XuatHinh();
             Console.WriteLine("Ban kinh r:" + this.r);
-            Console.WriteLine("Dien tich:" + this.caculArea());
+            Console.WriteLine("Dien tich:" + this.tinhDienTich());
         }
 
     }
-    }
+}

@@ -16,6 +16,7 @@ namespace Hinh
             Square cn = new Square();
             cn.NhapVuong();
             cn.XuatVuong();
+            Console.ReadLine();
 
         }
     }

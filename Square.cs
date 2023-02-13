@@ -9,33 +9,31 @@ namespace Hinh
     public class Square:ChonHinh
     {
         private int a;
-        public int A
+        public int R
         {
             get { return a; }
             set { a = value; }
         }
-
-        public Square() : base()
-        { }
+        public Square() : base() { }
         public Square(String tenhinh, int a) : base(tenhinh)
         {
             this.a = a;
         }
-        public int caculArea()
+        public double tinhDienTich()
         {
-            return (this.a * this.a);
+            return (this.a * this.a) ;
         }
         public void NhapVuong()
         {
             base.NhapHinh();
-            Console.Write("Canh a:");
-            this.a = Int32.Parse(Console.ReadLine());
+            Console.Write("Nhap a:");
+            this.a = int.Parse(Console.ReadLine());
         }
         public void XuatVuong()
         {
             base.XuatHinh();
-            Console.WriteLine("Canh a:" + this.a);
-            Console.WriteLine("Dien tich:" + this.caculArea());
+            Console.WriteLine(" nhập cạnh a:" + this.a);
+            Console.WriteLine("Dien tich hinh vuông là :" + this.tinhDienTich());
         }
 
     }
